@@ -15,25 +15,14 @@ class RtProfileSeeder extends Seeder
     public function run()
     {
         RtProfile::create([
-            'name' => 'RT 01',
-            'description' => 'Deskripsi RT 01',
-            'history' => 'Sejarah RT 01',
-            'address' => 'Jl. Contoh No. 1',
+            'name' => 'RT 04',
+            'description' => 'RT 04 adalah RT yang berada di kawasan perumahan Jl. Anggaran',
+            'history' => 'RT 04 sudah berdiri sejak tahun 1990',
+            'address' => 'Jl. Anggaran No. 1, Tangerang',
             'map_embed' => '<iframe src="https://maps.app.goo.gl/tQtd6YRKBH9Tb6q66"></iframe>',
-            'phone' => '08123456789',
-            'email' => 'rt01@example.com',
+            'phone' => '081234567890',
+            'email' => 'rt04@gmail.com',
         ]);
-
-        RtProfile::create([
-            'name' => 'RT 02',
-            'description' => 'Deskripsi RT 02',
-            'history' => 'Sejarah RT 02',
-            'address' => 'Jl. Contoh No. 2',
-            'map_embed' => '<iframe src="https://maps.google.com/..."></iframe>',
-            'phone' => '08123456780',
-            'email' => 'rt02@example.com',
-        ]);
-
         // Tambahkan data lainnya sesuai kebutuhan
     }
 }
